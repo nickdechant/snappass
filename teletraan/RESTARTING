@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+echo Running RESTARTING script.
+
+# Install snappass
+pip install snappass
+
+# Run snappass
+snappass

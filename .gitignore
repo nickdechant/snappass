@@ -3,3 +3,5 @@
 .project
 *.rdb
 junit*xml
+*.idea
+.idea/*

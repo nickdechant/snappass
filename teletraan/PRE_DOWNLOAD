@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set +e
+
+# Install telefig
+pip install teletraan-config-manager
+
+# Test upstart
+telefig-servicemanager -c "upstart" -p "teletraan://deploy-sentinel/testjob.conf" -s "testjob" -a "start"
+
+exit 0
